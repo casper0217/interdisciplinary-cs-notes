@@ -107,7 +107,7 @@ E[T^2]=\frac{1}{N}\sum_{k=1}^{N}k^2
 따라서 분산은
 
 ```math
-\operatorname{Var}(T)=E[T^2]-E[T]^2
+\mathrm{Var}(T)=E[T^2]-E[T]^2
 =\frac{N^2-1}{12}
 ```
 
@@ -186,7 +186,7 @@ E[T^2]=\frac{2-p}{p^2}
 이므로
 
 ```math
-\operatorname{Var}(T)=\frac{1-p}{p^2}
+\mathrm{Var}(T)=\frac{1-p}{p^2}
 ```
 
 $`p=0.01`$을 대입하면 평균은 **100회**, 분산은 **9,900회²**이다. 순차 탐색보다 분산이 크다는 것은 성공 시점의 퍼짐도 더 크다는 뜻이다.
